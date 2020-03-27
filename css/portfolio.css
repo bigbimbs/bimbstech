@@ -1,0 +1,82 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-family: Open sans;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 192, 192, 0.2);
+}
+.swiper-container-two {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+.swiper-slide-two {
+    background-position: center;
+    background-size: cover;
+}
+.portfolio-section1 {
+  margin-top: 50px;
+}
+.portfolio-section1 h2{
+  color: #344d9f;
+  text-align: center;
+  text-transform: uppercase;
+}
+.portfolio-section1 p{
+  text-align: center;
+  color: gray;
+  
+}
+.portfolio-section1 .portfolio-section1-swipe{
+  text-align: center;
+  color: #344d9f;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.swiper-container-one {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide-one {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.portfolio-section2{
+  margin-top: 60px;
+}
+@media screen and (min-width: 305px) {
+  .swiper-container-two{
+    top: 85%;
+  }
+}
+@media screen and (min-width: 355px) {
+  .swiper-container-two{
+    top: 75%;
+  }
+}
+@media screen and (min-width: 375px) {
+    .swiper-container-two{
+      top: 500px;
+    }
+}
+
+
+@media screen and (min-width: 400px) {
+  .swiper-container-two{
+    top: 450px;
+  }
+}

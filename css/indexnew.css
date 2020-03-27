@@ -1,0 +1,79 @@
+.navbar-brand img{
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 3px;
+}
+.welcome{
+    color: grey;
+}
+.col-sm-3{
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-sm-3 p{
+    margin-right: auto;
+    margin-left: auto;
+    color: grey;
+}
+.first-header{
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar-nav{
+    margin-left: 400px;
+}
+.facebook{
+    color: grey;
+    margin-right: 20px;
+}
+.twitter{
+    color: grey;
+    margin-right: 20px;
+}
+.dribbble{
+    color: grey;
+    margin-right: 20px;
+}
+.instagram{
+    color: grey;
+    margin-right: 20px;
+}
+.behance{
+    color: grey;
+    margin-right: 20px;
+}
+.btn-primary{
+        position: absolute;
+        right: 50px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 10px;
+}
+.btn-primary:hover{
+        color: #518ff5;
+        background-color: #ddd;
+        transition: 0.6s ease-in-out;
+}
+@media screen and (max-width: 780px) {
+    .icon-bar{
+    margin-left: 200px;
+    }
+    .welcome{
+        font-size: 12px;
+        text-align: center;
+    }
+    .navbar-nav{
+    margin-left: 40px;
+    }
+    .btn-primary{
+        margin-left: 0px;
+    }
+}

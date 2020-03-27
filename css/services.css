@@ -1,0 +1,12 @@
+body{
+    font-family: open sans;
+    background-color: rgba(192, 192, 192, 0.2);
+}
+.section-1 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section-1 p{
+    text-align: center;
+}
